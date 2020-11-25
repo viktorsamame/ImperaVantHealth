@@ -1,0 +1,396 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+     <!-- Required meta tags -->
+     <meta charset="utf-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>ImperaVant Health</title>
+    
+   
+   
+
+    <!-- Bootstrap CSS -->
+    
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="styles.css">
+
+    <!---Jquery--->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous">
+        </script>
+
+    <!--JS-->
+    <script src="script.js"></script>
+    
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700|Open+Sans:400,700" rel="stylesheet">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="images/logo@2x.png" style="width: 50px;" alt="">
+                
+            </a>
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav  ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">¿Eres Doctor?</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Planes
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#">Básico</a>
+                            <a class="dropdown-item" href="#">Familiar</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#">Premium</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" tabindex="-1">Foro</a>
+                    </li>
+                    <button class="btn btn-outline-primary">Inicia Sesión</button>
+                </ul>
+
+            </div>
+        </div>
+
+    </nav>
+
+    <!---HERO SECTION-->
+    <section class="section-hero">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 d-flex align-items-center pb-5 justify-content-center">
+                    <div class="box-text">
+                        <h1>Habla con un Doctor</h1>
+                        <p class="lead">
+                            Evitar riesgos al salir de casa, nuestros especialistas te atenderán vía llamada o videoconferencia
+                        </p>
+                        <button type="button" class="btn btn-primary btn-lg">Registrate</button>
+                        
+                        
+                    </div>
+                </div>
+                <div class="col-lg-6" id="imagenDoctor">
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!---INFO SECTION-->
+    <section class="info-boxes">
+       
+        <div class="container info-container">
+            <div class="row">
+                <div class="col-sm-8 col-md-6 col-lg-4 mb-5">
+                    <div class="card">
+                      <div class="card-body">
+                        <h5 class="card-title">Planes de Salud</h5>
+                        <p class="card-text">Tenemos diferentes planes que se ajustan a tí y tu familia</p> <br>
+                        <a href="#" class="btn btn-primary">Ver Planes</a>
+                      </div>
+                    </div>
+                </div>
+                
+                <div class="col-sm-8 col-md-6 col-lg-4 mb-5">
+                    <div class="card">
+                      <div class="card-body">
+                        <h5 class="card-title">Horarios Médicos</h5>
+                        <p class="card-text">Puedes reservar una videoconsulta sin salir de casa, en diferentes horarios, cuando lo necesites</p>
+                        <a href="#" class="btn btn-primary">Ver Horarios</a>
+                      </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-8 col-md-6 col-lg-4 mb-5">
+                    <div class="card">
+                      <div class="card-body">
+                        <h5 class="card-title">Emergencias médicas</h5>
+                        <p class="card-text">En caso de emergencias, nuestros doctores podrán realizar una atención presencial, cuidamos de tí y tu familia.</p>
+                        <a href="#" class="btn btn-primary">Contactar</a>
+                      </div>
+                    </div>
+                </div>
+            
+            </div>
+        </div>
+    </section>
+
+    <!--INTRO SECTION-->
+    <section class="intro mt-5 mb-5">
+        <div class="container">
+            <h2 class="text-center mb-5">Beneficios</h2>
+            <div class="row">
+
+
+                <div class="col-sm-8 col-md-6 col-lg-4 mb-5">
+                    <div class="card p-1">
+                        <img src="Atiendete.svg" alt="comida" class="img-top img-comida">
+                        <div class="card-body">
+                            <h5 class="text-center food-h5">Atiendete donde sea</h5>
+                            <h6 class="text-center web-developer">con doctores especialistas</h6>
+                            <p class="justify ">Podrás hablar con un doctor desde la comodidad de tu hogar. No pierdas más tiempo yendo a centro de salud para una consulta sencilla</p>
+                           
+                        </div>
+    
+                    </div>
+                </div>
+    
+                <div class="col-sm-8 col-md-6 col-lg-4 mb-5">
+                    <div class="card p-1">
+                        <img src="dudas.svg" alt="comida" class="img-top img-comida">
+                        <div class="card-body">
+                            <h5 class="text-center food-h5">Obtén Respuestas Rápidas</h5>
+                            <h6 class="text-center web-developer">a tus dudas de Salud</h6>
+                            <p class="justify ">Resuelve tus dudas de salud rapidamente mediante consultas en nuestro foro de la plataforma donde podrás recibir información de personal médico especialista</p>
+                            
+                        </div>
+    
+                    </div>
+                </div>
+                <div class="col-sm-8 col-md-6 col-lg-4 mb-5">
+                    <div class="card p-1">
+                        <img src="Atiendete.svg" alt="comida" class="img-top img-comida">
+                        <div class="card-body">
+                            <h5 class="text-center food-h5">Recibe orientación sobre</h5>
+                            <h6 class="text-center web-developer">tus medicamentos</h6>
+                            <p class="justify ">Nuestros médicos especialistas te orientarán acerca de los medicamentos o suplementos a utilizar al final de cada sesión de videconsulta mediante una receta médica virtual</p>
+                          
+                        </div>
+    
+                    </div>
+                </div> 
+
+                
+            </div>
+        </div>
+    </section>
+
+    <!--ABOUT THE PRODUCT SECTION-->
+    <section class="tour bg-gray">
+        <div class="container bg-gray">
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="video">
+                        <a href="https://www.youtube.com/watch?v=0It3EzK4NMM&feature=youtu.be" target="_blank" class="video-link">
+                            <img src="images/play-button-transparente.png" alt="" class="play-button">
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-8 mt-5">
+                    <h6 class="text-muted span-video">Descubre más sobre nosotros</h6>
+                    <h2>About the Product</h2>
+                    <p>Video descriptivo de la Startup ImperaVant y del producto ImperaVant Health</p>
+                    <a href="#" class="btn btn-tour">Contratar</a>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+   
+
+    <!--STATICS-->
+    <section class="statics mt-5 mb-5">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-md-6 col-lg-3 mt-5 mb-5 ">
+                    <h3>50+</h3>
+                    <p>Doctores Especialistas</p>
+                </div>
+                <div class="col-md-6 col-lg-3  mt-5 mb-5">
+                    <h3>+5000</h3>
+                    <p>Descargas</p>
+                </div>
+                <div class="col-md-6  col-lg-3  mt-5 mb-5">
+                    <h3>3500</h3>
+                    <p>Citas médicas</p>
+                </div>
+                <div class="col-md-6 col-lg-3  mt-5 mb-5">
+                    <h3>5+</h3>
+                    <p>Convenios con Clínicas</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--EVENTS-->
+    <section class="events mb-5">
+        <div class="container">
+            <header class="text-center">
+                <h6><small>Realiza tus consultas, conectate con más personas</small></h6>
+                <h3 class="font-weight-bold">
+                    Ultimas Noticias
+                </h3>
+                <p>
+                    A través de nuestro foro, podrás encontrar y compartir situaciones similares a las que puedes estar viviendo.
+                </p>
+            </header>
+            <div class="row">
+                <div class="col-md-4 mb-4 mt-4">
+                    <div class="card shadow-sm">
+                        <img src="images/covid.jpg" alt="" class="img-fluid">
+
+
+                        <div class="card-body">
+                            <h5 class="card-title">
+                                Covid-19
+                            </h5>
+                            <p class="card-text">
+                                Mazzetti proyecta vacunar a 24 millones de adultos con la primera dosis antes de las elecciones
+                            </p>
+                            <a href="" class="btn btn-outline-danger">Leer más</a>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="col-md-4 mb-4 mt-4">
+                    <div class="card shadow-sm">
+                        <img src="images/psicologia.jpg" alt="" class="img-fluid">
+                        <div class="card-body">
+                            <h5 class="card-title">
+                                Psicología
+                            </h5>
+                            <p class="card-text">
+                                La Psicología en la prevención y manejo del COVID-19.
+Aportes desde la evidencia inicial
+                            </p>
+                            <a href="" class="btn btn-outline-danger">Leer más</a>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-md-4 mt-4">
+                    <div class="card shadow-sm">
+                        <img src="images/events-img-1.jpeg" alt="" class="img-fluid">
+
+
+                        <div class="card-body">
+                            <h5 class="card-title">
+                                Maneja el Estres
+                            </h5>
+                            <p class="card-text">
+                                El manejo del estrés comienza con una valoración sincera de cómo reaccionas frente a las situaciones de estrés.
+                            </p>
+                            <a href="" class="btn btn-outline-danger">Leer más</a>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+   
+
+    <section class="divider mb-5">
+        <div class="container d-flex align-items-center">
+            <div class="row">
+                <div class="col-md-8 divider-text">
+                    <h3 class="mt-5">Afiliate como Doctor</h3>
+                    <p>Trabaja desde casa, atiende en los horarios que tu elijas. Además podrás generar una cartera de cleintes recurrentes</p>
+                    <a href="#" class="btn btn-primary btn-action">Aplica ahora</a>
+                    <a href="#" class="btn btn-warning btn-more">Beneficios</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--SLIDER-->
+    <h2 class="h2-testimonial">Testimonios</h2>
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+        <!-- Carousel indicators -->
+        
+        <!-- Wrapper for carousel items -->
+        <div class="carousel-inner">		
+            <div class="item carousel-item active">
+                <div class="img-box img-fluid"><img src="images/testimonial1.jpg" alt=""></div>
+                <p class="testimonial">Al inicio tenía duas, pero me anime y mi doctor me ayudo con los dolores que tenía</p>
+                <p class="overview"><b>Maria Malkova</b><a href="#">Paciente Traumatología</a></p>
+                <div class="star-rating">
+                    <ul class="list-inline">
+                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                        <li class="list-inline-item"><i class="fa fa-star-o"></i></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="item carousel-item">
+                <div class="img-box"><img src="images/testimonial2.jpg" alt=""></div>
+                <p class="testimonial">Desde un inicio el doctor atendió todas mis consultas y me dio incluso seguimiento por la plataforma para saber como estaba, en verdad se preocupo por mi bienestar</p>
+                <p class="overview"><b>Jordi Enporta</b><a href="#">Paciente Neumología</a></p>
+                <div class="star-rating">
+                    <ul class="list-inline">
+                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                        <li class="list-inline-item"><i class="fa fa-star-o"></i></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="item carousel-item">
+                <div class="img-box"><img src="images/avatar-3.jpg" alt=""></div>
+                <p class="testimonial">Estaba muy estresada por la pandemia, pedi una cita con mi psicologa y me ayudo a manejar técnicas para manejar el estres, ahora mi familia también usa imperaVant Health</p>
+                <p class="overview"><b>Jhonny Sinsgo</b><a href="#">Paciente Psicología</a></p>
+                <div class="star-rating">
+                    <ul class="list-inline">
+                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                        <li class="list-inline-item"><i class="fa fa-star-half-o"></i></li>
+                    </ul>
+                </div>
+            </div>		
+        </div>
+
+    
+       
+        <!-- Carousel controls -->
+        <a class="carousel-control left carousel-control-prev" href="#myCarousel" data-slide="prev">
+            <i class="fa fa-angle-left"></i>
+        </a>
+        <a class="carousel-control right carousel-control-next" href="#myCarousel" data-slide="next">
+            <i class="fa fa-angle-right"></i>
+        </a>
+    </div>
+
+    
+
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+   
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
